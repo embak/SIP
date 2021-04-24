@@ -5,9 +5,6 @@ web/
 *.csv
 /python
 .idea
-.project
-.pydevproject
-/__pycache__
 /.settings
 /data/*.db
 /plugins/*
