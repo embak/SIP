@@ -120,7 +120,7 @@ def reboot(wait=1, block=False):
             pass
         else:
             try:
-            GPIO.cleanup()
+                GPIO.cleanup()
             except NameError:
                 pass
         time.sleep(wait)
